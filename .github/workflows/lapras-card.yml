@@ -1,0 +1,24 @@
+name: LAPRAS Card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-card:
+    name: LAPRAS Card
+    runs-on: ubuntu-latest
+    steps:
+      - uses: kawamataryo/lapras-card-readme@main
+        with:
+          SHARE_ID: "JY7B6DD"
+          # 以下オプション
+          # https://lapras-card-generator.vercel.app/?e=4.22&b=3.3&i=2.28&b1=%23006eff&b2=%2399cfff&i1=%2303102f&i2=%231688bf&l=ja
+          # ICON_FIRST: "#030E21"
+          # ICON_SECOND: "#1688BF"
+          # BACKGROUND_FIRST: "#020E27"
+          # BACKGROUND_SECOND: "#0E5593"
+          # LANG: "ja"
+          # CARD_WIDTH: "400"
+          # UPDATE_TIME: "true"
