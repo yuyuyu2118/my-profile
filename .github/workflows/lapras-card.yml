@@ -12,13 +12,11 @@ jobs:
     steps:
       - uses: kawamataryo/lapras-card-readme@main
         with:
-          SHARE_ID: "JY7B6DD"
-          # 以下オプション
-          # https://lapras-card-generator.vercel.app/?e=4.22&b=3.3&i=2.28&b1=%23006eff&b2=%2399cfff&i1=%2303102f&i2=%231688bf&l=ja
-          # ICON_FIRST: "#030E21"
-          # ICON_SECOND: "#1688BF"
-          # BACKGROUND_FIRST: "#020E27"
-          # BACKGROUND_SECOND: "#0E5593"
-          # LANG: "ja"
+          SHARE_ID: JY7B6DD
+          ICON_FIRST: "#03102f"
+          ICON_SECOND: "#1688bf"
+          BACKGROUND_FIRST: "#006eff"
+          BACKGROUND_SECOND: "#99cfff"
+          LANG: "ja"
           # CARD_WIDTH: "400"
           # UPDATE_TIME: "true"
